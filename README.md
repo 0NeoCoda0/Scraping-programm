@@ -1,0 +1,3 @@
+# Scraping-programm
+
+The program connects to the site gamedev.ru . It uses the semantic core in order to find a word match among the data from the web page. The semantic core is a list of words that indicate the necessary information, in other words, a "white sheet". A "black sheet" is also used, which is presented as a file with water words. These words are irrelevant and should be ignored before analyzing the data of the web page and the "white sheet". The program has no settings for the user and is tailored to one specific task: to find all sound designers on the site gamedev.ru . To adapt the program to the search for other data, it is necessary to create new "black and white sheets", as well as rewrite the scraping algorithm for a specific site.
